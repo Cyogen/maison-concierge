@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How It Works — Maison Concierge</title>
+  <meta name="description" content="A simple, elegant onboarding process — from your first discovery call to seamless ongoing shopping sessions. Learn how Maison Concierge works." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav nav--transparent" id="navbar">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Maison <span>Concierge</span></a>
+      <ul class="nav__links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="how-it-works.html" class="active">How It Works</a></li>
+        <li><a href="contact.html" class="btn btn--outline-light">Book a Call</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <ul class="mobile-nav__links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="how-it-works.html">How It Works</a></li>
+      <li><a href="contact.html">Book a Call</a></li>
+    </ul>
+    <a href="contact.html" class="btn btn--primary">Schedule Discovery Call</a>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">The Process</span>
+      <h1>Simple, Seamless, Elevated</h1>
+      <p>From your very first call to an ongoing concierge relationship — every step is designed to be effortless for you.</p>
+    </div>
+  </section>
+
+  <!-- ONBOARDING STEPS -->
+  <section class="section">
+    <div class="container" style="max-width: 860px;">
+      <div class="section-header text-center fade-in">
+        <span class="eyebrow">Getting Started</span>
+        <h2>Your Onboarding Journey</h2>
+        <div class="divider"></div>
+        <p>New clients follow a simple four-step process before their first live session begins.</p>
+      </div>
+
+      <div style="margin-top: 20px;">
+        <div class="process-step fade-in">
+          <div class="process-step__number">01</div>
+          <div class="process-step__content">
+            <h3>Discovery Call <span style="font-family: 'Montserrat', sans-serif; font-size: 0.65rem; font-weight: 600; letter-spacing: 0.15em; color: var(--gold); text-transform: uppercase; vertical-align: middle; margin-left: 10px;">Complimentary · 15 minutes</span></h3>
+            <p style="margin-top: 0.5rem;">Your journey begins with a complimentary 15-minute call where we get to know you, your lifestyle, and your shopping needs. We'll walk you through our services, answer every question, and recommend the tier that makes the most sense for you.</p>
+            <p style="margin-top: 0.75rem;">There is no obligation. This call is purely about understanding whether we're a perfect fit for each other — and we believe you'll feel it immediately.</p>
+            <a href="contact.html" class="btn btn--gold-outline" style="margin-top: 1.2rem; font-size: 0.62rem; padding: 10px 24px;">Book Your Free Call</a>
+          </div>
+        </div>
+
+        <div class="process-step fade-in">
+          <div class="process-step__number">02</div>
+          <div class="process-step__content">
+            <h3>Welcome & Onboarding</h3>
+            <p style="margin-top: 0.5rem;">Once you've chosen your service level, you'll receive a beautifully prepared digital welcome packet containing your service agreement, NDA, and our confidential client style profile form.</p>
+            <p style="margin-top: 0.75rem;">Your signed agreements are returned via secure digital signature, and your style profile is completed at your leisure — it typically takes 15–20 minutes and makes an enormous difference in the quality of your first session.</p>
+            <p style="margin-top: 0.75rem;">Your payment method is securely added via Stripe, and your first session is scheduled at a time that suits you perfectly.</p>
+          </div>
+        </div>
+
+        <div class="process-step fade-in">
+          <div class="process-step__number">03</div>
+          <div class="process-step__content">
+            <h3>Pre-Session Research</h3>
+            <p style="margin-top: 0.5rem;">Before every session, your concierge reviews your style profile and prepares a curated selection of items, brands, and ideas tailored specifically to your stated goals for the session.</p>
+            <p style="margin-top: 0.75rem;">You may receive a pre-session lookbook or wishlist 24–48 hours in advance, allowing you to arrive with a sense of direction and a shortlist already forming. Premium and retainer clients receive this as standard.</p>
+          </div>
+        </div>
+
+        <div class="process-step fade-in">
+          <div class="process-step__number">04</div>
+          <div class="process-step__content">
+            <h3>Your First Live Session</h3>
+            <p style="margin-top: 0.5rem;">You join your concierge on video — via Zoom, FaceTime, or Google Meet, whichever you prefer. Your concierge shares their screen or uses a handheld camera in-boutique, and you experience luxury shopping in an entirely new way.</p>
+            <p style="margin-top: 0.75rem;">You direct the session. Your concierge researches, presents, advises, and purchases. You simply choose what you love. At minimum, sessions run two hours — though most clients find they want more time once they experience the service.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DURING A SESSION -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-header text-center fade-in">
+        <span class="eyebrow">Inside Every Session</span>
+        <h2>What a Live Session Looks Like</h2>
+        <div class="divider"></div>
+        <p>Every session is different, but every session follows the same commitment to excellence.</p>
+      </div>
+      <div class="grid-3">
+        <div class="text-center fade-in" style="padding: 40px 32px; border: 1px solid rgba(255,255,255,0.08);">
+          <div style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--gold); line-height: 1; margin-bottom: 1rem;">I</div>
+          <h4 style="color: var(--white); margin-bottom: 0.75rem;">Set the Intention</h4>
+          <p style="font-size: 0.82rem;">Your concierge opens with a brief alignment conversation — confirming your goals for the session, your budget, and any priorities that have emerged since your last interaction.</p>
+        </div>
+        <div class="text-center fade-in" style="padding: 40px 32px; border: 1px solid rgba(255,255,255,0.08);">
+          <div style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--gold); line-height: 1; margin-bottom: 1rem;">II</div>
+          <h4 style="color: var(--white); margin-bottom: 0.75rem;">Live Curation</h4>
+          <p style="font-size: 0.82rem;">Your concierge browses, presents items, explains the story behind each brand and piece, and fields your questions with expert knowledge — all in real time, on camera.</p>
+        </div>
+        <div class="text-center fade-in" style="padding: 40px 32px; border: 1px solid rgba(255,255,255,0.08);">
+          <div style="font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--gold); line-height: 1; margin-bottom: 1rem;">III</div>
+          <h4 style="color: var(--white); margin-bottom: 0.75rem;">Purchase & Confirm</h4>
+          <p style="font-size: 0.82rem;">For approved items, your concierge places the order immediately on your behalf — confirming stock, securing delivery, and capturing all order details for your recap.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AFTER A SESSION -->
+  <section class="section">
+    <div class="container" style="max-width: 860px;">
+      <div class="section-header text-center fade-in">
+        <span class="eyebrow">After Every Session</span>
+        <h2>Your Post-Session Experience</h2>
+        <div class="divider"></div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 20px;">
+        <div class="fade-in" style="background: var(--white); border: 1px solid var(--gray-light); padding: 32px 36px; display: flex; gap: 24px; align-items: flex-start;">
+          <div style="font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--gold-pale); flex-shrink: 0; line-height: 1; width: 40px; text-align: center;">1</div>
+          <div>
+            <h4 style="margin-bottom: 6px;">Session Recap Delivered</h4>
+            <p style="font-size: 0.85rem; color: var(--gray);">Within 24 hours, you receive a beautifully formatted recap document listing every item discussed, purchased, and shortlisted — with brand details, prices, and order confirmation numbers.</p>
+          </div>
+        </div>
+        <div class="fade-in" style="background: var(--white); border: 1px solid var(--gray-light); padding: 32px 36px; display: flex; gap: 24px; align-items: flex-start;">
+          <div style="font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--gold-pale); flex-shrink: 0; line-height: 1; width: 40px; text-align: center;">2</div>
+          <div>
+            <h4 style="margin-bottom: 6px;">Delivery Monitoring</h4>
+            <p style="font-size: 0.85rem; color: var(--gray);">Your concierge monitors all outstanding deliveries and proactively communicates any delays, substitutions, or issues — so you never have to chase a package yourself.</p>
+          </div>
+        </div>
+        <div class="fade-in" style="background: var(--white); border: 1px solid var(--gray-light); padding: 32px 36px; display: flex; gap: 24px; align-items: flex-start;">
+          <div style="font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--gold-pale); flex-shrink: 0; line-height: 1; width: 40px; text-align: center;">3</div>
+          <div>
+            <h4 style="margin-bottom: 6px;">Profile Update</h4>
+            <p style="font-size: 0.85rem; color: var(--gray);">Your style profile is updated based on the session — new preferences noted, decisions logged, and your curated wishlist refreshed in preparation for your next appointment.</p>
+          </div>
+        </div>
+        <div class="fade-in" style="background: var(--white); border: 1px solid var(--gray-light); padding: 32px 36px; display: flex; gap: 24px; align-items: flex-start;">
+          <div style="font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--gold-pale); flex-shrink: 0; line-height: 1; width: 40px; text-align: center;">4</div>
+          <div>
+            <h4 style="margin-bottom: 6px;">Next Session Scheduling</h4>
+            <p style="font-size: 0.85rem; color: var(--gray);">Your concierge proactively suggests a follow-up session based on upcoming needs — seasonal changes, events, or items from your wishlist that have become available.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" style="background-color: var(--gray-light);">
+    <div class="container" style="max-width: 800px;">
+      <div class="section-header text-center fade-in">
+        <span class="eyebrow">Common Questions</span>
+        <h2>Frequently Asked Questions</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="faq-list fade-in">
+        <div class="faq-item">
+          <div class="faq-item__question">
+            Do I need to be available during the session, or can my concierge shop independently?
+            <span class="faq-item__icon">+</span>
+          </div>
+          <div class="faq-item__answer">
+            <p>Most sessions are live and collaborative — you watch and direct in real time. However, retainer clients may request pre-approved autonomous shopping for specific categories or recurring needs, where your concierge shops independently within agreed parameters and sends you a recap.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__question">
+            Which video platform do you use for sessions?
+            <span class="faq-item__icon">+</span>
+          </div>
+          <div class="faq-item__answer">
+            <p>We are flexible — Zoom, FaceTime, Google Meet, or WhatsApp Video are all available. We use whichever platform is most comfortable and secure for you. Session links are sent in your confirmation email.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__question">
+            How does my concierge make purchases on my behalf?
+            <span class="faq-item__icon">+</span>
+          </div>
+          <div class="faq-item__answer">
+            <p>Your concierge places orders directly using your payment method on file or, in some cases, via a secure guest checkout using your provided billing and shipping details. No purchases are ever made without your explicit approval during the session. You receive a receipt for every purchase made.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__question">
+            Can I book sessions across different time zones?
+            <span class="faq-item__icon">+</span>
+          </div>
+          <div class="faq-item__answer">
+            <p>Absolutely. We serve clients across all time zones and schedule sessions at your convenience. Elite retainer clients have access to extended hours including evenings and weekends. Our booking system (Calendly) automatically handles time zone conversion.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__question">
+            What happens if an item I purchased doesn't fit or I change my mind?
+            <span class="faq-item__icon">+</span>
+          </div>
+          <div class="faq-item__answer">
+            <p>Your concierge will assist with return and exchange coordination, working with the retailer on your behalf. Note that all sales, returns, and exchanges are subject to the policies of the individual retailer — we always advise on return windows before purchases are made.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__question">
+            Is my personal information safe and confidential?
+            <span class="faq-item__icon">+</span>
+          </div>
+          <div class="faq-item__answer">
+            <p>Absolutely. All client information is protected under a signed NDA and our strict confidentiality policy. We never share, sell, or disclose your personal details, purchase history, or identity to any third party, ever.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-item__question">
+            Can I upgrade or downgrade my retainer tier?
+            <span class="faq-item__icon">+</span>
+          </div>
+          <div class="faq-item__answer">
+            <p>Yes. Tier changes take effect at the beginning of the next billing cycle. Simply contact your concierge or email us at hello@maisonconcierge.com at least 5 days before your billing date to make a change.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container fade-in">
+      <span class="eyebrow" style="color: rgba(255,255,255,0.7);">Begin Today</span>
+      <h2>Ready to Experience It for Yourself?</h2>
+      <p>Your first call is complimentary. Let's talk about what you need.</p>
+      <a href="contact.html" class="btn" style="background: var(--white); color: var(--gold); border-color: var(--white);">Book Your Discovery Call</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">Maison <span>Concierge</span></div>
+          <p class="footer__tagline">A white-glove remote luxury personal shopping concierge service for the world's most discerning clientele.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Navigation</h4>
+          <ul class="footer__links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul class="footer__links">
+            <li><a href="services.html">Live Shopping Sessions</a></li>
+            <li><a href="services.html">Wardrobe Curation</a></li>
+            <li><a href="services.html">Rare Item Sourcing</a></li>
+            <li><a href="services.html">Gift Concierge</a></li>
+            <li><a href="pricing.html">Monthly Retainers</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <p class="footer__contact-item">hello@maisonconcierge.com</p>
+          <p class="footer__contact-item">WhatsApp: +1 (000) 000-0000</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Maison Concierge. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

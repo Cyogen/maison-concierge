@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Book — Maison Concierge</title>
+  <meta name="description" content="Book your complimentary discovery call or send us an enquiry. Maison Concierge is available to clients worldwide." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav nav--transparent" id="navbar">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Maison <span>Concierge</span></a>
+      <ul class="nav__links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="contact.html" class="btn btn--outline-light active">Book a Call</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <ul class="mobile-nav__links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="how-it-works.html">How It Works</a></li>
+      <li><a href="contact.html">Book a Call</a></li>
+    </ul>
+    <a href="contact.html" class="btn btn--primary">Schedule Discovery Call</a>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Get in Touch</span>
+      <h1>Begin Your Experience</h1>
+      <p>Your complimentary discovery call is waiting. No obligation — just an honest conversation about how we can serve you.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="gap: 80px; align-items: flex-start;">
+
+        <!-- CONTACT INFO -->
+        <div class="fade-in">
+          <span class="eyebrow">Reach Us Directly</span>
+          <h2>We'd Love to <em class="italic">Hear From You</em></h2>
+          <div class="divider divider--left"></div>
+          <p>Whether you have a specific request, a question about our services, or you're simply curious — we welcome your message. All enquiries receive a response within 24 business hours.</p>
+
+          <div style="margin-top: 2.5rem; display: flex; flex-direction: column; gap: 24px;">
+            <div style="display: flex; gap: 20px; align-items: flex-start;">
+              <div style="width: 44px; height: 44px; background: var(--gold-pale); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--gold);">◈</div>
+              <div>
+                <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gray); margin-bottom: 4px;">Email</div>
+                <a href="mailto:hello@maisonconcierge.com" style="color: var(--charcoal); font-family: 'Cormorant Garamond', serif; font-size: 1.2rem;">hello@maisonconcierge.com</a>
+                <p style="font-size: 0.78rem; margin-top: 2px;">For general enquiries and new client contact</p>
+              </div>
+            </div>
+            <div style="display: flex; gap: 20px; align-items: flex-start;">
+              <div style="width: 44px; height: 44px; background: var(--gold-pale); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--gold);">◈</div>
+              <div>
+                <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gray); margin-bottom: 4px;">WhatsApp</div>
+                <a href="https://wa.me/10000000000" style="color: var(--charcoal); font-family: 'Cormorant Garamond', serif; font-size: 1.2rem;">+1 (000) 000-0000</a>
+                <p style="font-size: 0.78rem; margin-top: 2px;">Preferred by existing and retainer clients</p>
+              </div>
+            </div>
+            <div style="display: flex; gap: 20px; align-items: flex-start;">
+              <div style="width: 44px; height: 44px; background: var(--gold-pale); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--gold);">◈</div>
+              <div>
+                <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gray); margin-bottom: 4px;">Schedule a Call</div>
+                <a href="#" style="color: var(--charcoal); font-family: 'Cormorant Garamond', serif; font-size: 1.2rem;">Book via Calendly</a>
+                <p style="font-size: 0.78rem; margin-top: 2px;">Choose a time that suits your schedule globally</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: 2.5rem; padding: 32px; background-color: var(--charcoal);">
+            <span class="eyebrow">Response Promise</span>
+            <p style="font-size: 0.85rem; color: rgba(255,255,255,0.65); margin-top: 0.5rem;">New client enquiries are responded to within <strong style="color: var(--white);">24 business hours</strong>. Existing and retainer clients receive priority responses within <strong style="color: var(--white);">4 hours</strong> during business hours.</p>
+            <p style="font-size: 0.78rem; color: rgba(255,255,255,0.4); margin-top: 0.75rem;">Business Hours: Monday – Friday, 9am – 7pm EST<br />Extended hours available to retainer clients</p>
+          </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div class="fade-in">
+          <span class="eyebrow">Send an Enquiry</span>
+          <h2>Tell Us <em class="italic">About You</em></h2>
+          <div class="divider divider--left"></div>
+          <p style="margin-bottom: 2rem;">Complete the form below and a member of our team will be in touch shortly to arrange your complimentary discovery call.</p>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Your first name" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Your last name" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp (Optional)</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 (000) 000-0000" />
+            </div>
+            <div class="form-group">
+              <label for="country">Country of Residence *</label>
+              <input type="text" id="country" name="country" placeholder="e.g. United States, United Kingdom..." required />
+            </div>
+            <div class="form-group">
+              <label for="interest">I'm Interested In *</label>
+              <select id="interest" name="interest" required>
+                <option value="" disabled selected>Please select a service</option>
+                <option value="standard-session">Standard Session ($75–$125/hr)</option>
+                <option value="premium-session">Premium Session ($150–$250/hr)</option>
+                <option value="essential-retainer">Essential Retainer ($3,000/mo)</option>
+                <option value="premier-retainer">Premier Retainer ($5,000/mo)</option>
+                <option value="elite-retainer">Elite Retainer ($8,000/mo)</option>
+                <option value="gift-concierge">Gift Concierge</option>
+                <option value="rare-item-sourcing">Rare Item Sourcing</option>
+                <option value="event-dressing">Event / Travel Dressing</option>
+                <option value="discovery-call">Complimentary Discovery Call First</option>
+                <option value="not-sure">Not Sure Yet — Need Guidance</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="referral">How Did You Hear About Us?</label>
+              <select id="referral" name="referral">
+                <option value="" disabled selected>Please select</option>
+                <option value="referral">Personal Referral</option>
+                <option value="instagram">Instagram</option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="google">Google Search</option>
+                <option value="luxury-network">Luxury Network / Event</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Us About Your Needs *</label>
+              <textarea id="message" name="message" placeholder="Please share what brings you to Maison Concierge — your shopping goals, any specific items or occasions in mind, and anything else that would help us prepare for your discovery call." required></textarea>
+            </div>
+            <div class="form-group" style="display: flex; align-items: flex-start; gap: 12px;">
+              <input type="checkbox" id="consent" name="consent" style="width: auto; margin-top: 3px; flex-shrink: 0;" required />
+              <label for="consent" style="font-size: 0.75rem; color: var(--gray); text-transform: none; letter-spacing: 0; font-weight: 400; line-height: 1.6; cursor: pointer;">
+                I agree that my submitted data will be stored and processed in accordance with the Maison Concierge Privacy Policy, and that I may be contacted regarding my enquiry. I understand all information is kept strictly confidential.
+              </label>
+            </div>
+            <button type="submit" class="btn btn--primary" style="width: 100%; margin-top: 0.5rem; font-size: 0.72rem;">Send Enquiry</button>
+
+            <!-- Success Message (hidden by default) -->
+            <div id="formSuccess" style="display: none; background: var(--gold-pale); border-left: 3px solid var(--gold); padding: 20px 24px; margin-top: 20px;">
+              <h4 style="margin-bottom: 4px; color: var(--charcoal);">Thank you for your enquiry.</h4>
+              <p style="font-size: 0.85rem;">We will be in touch within 24 business hours to arrange your discovery call. We look forward to speaking with you.</p>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK BOOK BANNER -->
+  <section class="section section--dark">
+    <div class="container text-center fade-in">
+      <span class="eyebrow">Prefer to Book Directly?</span>
+      <h2>Schedule Your Discovery Call Instantly</h2>
+      <p style="max-width: 500px; margin: 1rem auto 2rem;">Use our booking calendar to select a time that works for you — available across all time zones, 7 days a week.</p>
+      <a href="#" class="btn btn--primary" style="display: inline-block;">Open Booking Calendar</a>
+      <p style="margin-top: 1rem; font-size: 0.75rem; color: rgba(255,255,255,0.3);">15 minutes · Complimentary · No obligation</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">Maison <span>Concierge</span></div>
+          <p class="footer__tagline">A white-glove remote luxury personal shopping concierge service for the world's most discerning clientele.</p>
+          <p style="font-size: 0.8rem;">Available Worldwide &nbsp;·&nbsp; Fully Remote &nbsp;·&nbsp; 100% Confidential</p>
+        </div>
+        <div class="footer__col">
+          <h4>Navigation</h4>
+          <ul class="footer__links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul class="footer__links">
+            <li><a href="services.html">Live Shopping Sessions</a></li>
+            <li><a href="services.html">Wardrobe Curation</a></li>
+            <li><a href="services.html">Rare Item Sourcing</a></li>
+            <li><a href="services.html">Gift Concierge</a></li>
+            <li><a href="pricing.html">Monthly Retainers</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <p class="footer__contact-item">hello@maisonconcierge.com</p>
+          <p class="footer__contact-item">WhatsApp: +1 (000) 000-0000</p>
+          <p class="footer__contact-item" style="margin-top: 1rem; font-size: 0.78rem;">Available globally via secure video call</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Maison Concierge. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">NDA & Confidentiality</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

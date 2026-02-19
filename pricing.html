@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing — Maison Concierge</title>
+  <meta name="description" content="Transparent pricing for remote luxury personal shopping concierge services — hourly sessions, monthly retainers, and a la carte options." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav nav--transparent" id="navbar">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Maison <span>Concierge</span></a>
+      <ul class="nav__links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html" class="active">Pricing</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="contact.html" class="btn btn--outline-light">Book a Call</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <ul class="mobile-nav__links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="how-it-works.html">How It Works</a></li>
+      <li><a href="contact.html">Book a Call</a></li>
+    </ul>
+    <a href="contact.html" class="btn btn--primary">Schedule Discovery Call</a>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Transparent Pricing</span>
+      <h1>Investment in Your Time</h1>
+      <p>Straightforward pricing — no hidden fees, no surprises. Every session and retainer is designed to deliver exceptional value.</p>
+    </div>
+  </section>
+
+  <!-- SESSION PRICING -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header text-center fade-in">
+        <span class="eyebrow">Hourly Sessions</span>
+        <h2>Pay-Per-Session Rates</h2>
+        <div class="divider"></div>
+        <p>Ideal for clients with occasional or exploratory shopping needs. All sessions require a 2-hour minimum booking.</p>
+      </div>
+      <div class="grid-2" style="max-width: 860px; margin: 0 auto; gap: 30px;">
+        <div class="pricing-card fade-in">
+          <span class="pricing-card__label">Entry Level</span>
+          <div class="pricing-card__name">Standard</div>
+          <div class="pricing-card__price"><sup>$</sup>75 – 125</div>
+          <div class="pricing-card__period">per hour · 2-hour minimum</div>
+          <div class="pricing-card__divider"></div>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">1-on-1 live remote shopping session</li>
+            <li class="pricing-card__feature">Real-time product research & curation</li>
+            <li class="pricing-card__feature">Purchase coordination & order placement</li>
+            <li class="pricing-card__feature">Post-session recap within 24 hours</li>
+            <li class="pricing-card__feature">Curated shortlist of reviewed items</li>
+          </ul>
+          <a href="contact.html" class="btn btn--outline" style="width: 100%; text-align: center;">Book a Session</a>
+        </div>
+        <div class="pricing-card pricing-card--featured fade-in">
+          <div class="pricing-card__badge">Most Popular</div>
+          <span class="pricing-card__label">Elevated Experience</span>
+          <div class="pricing-card__name">Premium</div>
+          <div class="pricing-card__price"><sup>$</sup>150 – 250</div>
+          <div class="pricing-card__period">per hour · 2-hour minimum</div>
+          <div class="pricing-card__divider"></div>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">Everything in Standard</li>
+            <li class="pricing-card__feature">Personal style consultation included</li>
+            <li class="pricing-card__feature">Priority scheduling (24-hr notice)</li>
+            <li class="pricing-card__feature">Brand relationship access & insider recs</li>
+            <li class="pricing-card__feature">Trend briefing tailored to your profile</li>
+            <li class="pricing-card__feature">Ongoing WhatsApp / email support</li>
+          </ul>
+          <a href="contact.html" class="btn btn--primary" style="width: 100%; text-align: center;">Book a Session</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RETAINER PRICING -->
+  <section class="section" style="background-color: var(--gray-light);">
+    <div class="container">
+      <div class="section-header text-center fade-in">
+        <span class="eyebrow">Monthly Retainers</span>
+        <h2>Your Dedicated On-Call Concierge</h2>
+        <div class="divider"></div>
+        <p>For clients who want consistent, priority access to their personal shopper. Retainer clients receive exclusive benefits, guaranteed availability, and a fully managed shopping experience.</p>
+      </div>
+      <div class="grid-3" style="gap: 24px;">
+        <div class="pricing-card fade-in">
+          <span class="pricing-card__label">Retainer — Tier 1</span>
+          <div class="pricing-card__name">Essential</div>
+          <div class="pricing-card__price"><sup>$</sup>3,000</div>
+          <div class="pricing-card__period">per month · billed on the 1st</div>
+          <div class="pricing-card__divider"></div>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">8 hours of live sessions per month</li>
+            <li class="pricing-card__feature">Priority scheduling within 48 hours</li>
+            <li class="pricing-card__feature">Dedicated shopper — assigned to you</li>
+            <li class="pricing-card__feature">Unlimited email consultations</li>
+            <li class="pricing-card__feature">Monthly curated wishlist</li>
+            <li class="pricing-card__feature">Post-session recaps & summaries</li>
+          </ul>
+          <a href="contact.html" class="btn btn--outline" style="width: 100%; text-align: center;">Enquire Now</a>
+        </div>
+        <div class="pricing-card pricing-card--featured fade-in">
+          <div class="pricing-card__badge">Best Value</div>
+          <span class="pricing-card__label">Retainer — Tier 2</span>
+          <div class="pricing-card__name">Premier</div>
+          <div class="pricing-card__price"><sup>$</sup>5,000</div>
+          <div class="pricing-card__period">per month · billed on the 1st</div>
+          <div class="pricing-card__divider"></div>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">15 hours of live sessions per month</li>
+            <li class="pricing-card__feature">Priority scheduling within 24 hours</li>
+            <li class="pricing-card__feature">Unlimited WhatsApp consultations</li>
+            <li class="pricing-card__feature">Seasonal wardrobe planning (quarterly)</li>
+            <li class="pricing-card__feature">Gift sourcing & coordination included</li>
+            <li class="pricing-card__feature">Exclusive brand previews & early access</li>
+            <li class="pricing-card__feature">Trend & new arrival briefings</li>
+          </ul>
+          <a href="contact.html" class="btn btn--primary" style="width: 100%; text-align: center;">Enquire Now</a>
+        </div>
+        <div class="pricing-card fade-in">
+          <span class="pricing-card__label">Retainer — Tier 3</span>
+          <div class="pricing-card__name">Elite</div>
+          <div class="pricing-card__price"><sup>$</sup>8,000</div>
+          <div class="pricing-card__period">per month · billed on the 1st</div>
+          <div class="pricing-card__divider"></div>
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature">25 hours of live sessions per month</li>
+            <li class="pricing-card__feature">24/7 availability & on-call access</li>
+            <li class="pricing-card__feature">Rare & limited item sourcing</li>
+            <li class="pricing-card__feature">Full gift program management</li>
+            <li class="pricing-card__feature">Travel dressing & event styling</li>
+            <li class="pricing-card__feature">Luxury brand liaison & boutique access</li>
+            <li class="pricing-card__feature">PA / household manager coordination</li>
+            <li class="pricing-card__feature">Quarterly style strategy session</li>
+          </ul>
+          <a href="contact.html" class="btn btn--outline" style="width: 100%; text-align: center;">Enquire Now</a>
+        </div>
+      </div>
+      <p class="text-center" style="margin-top: 2rem; font-size: 0.78rem; color: var(--gray);">Unused retainer hours do not roll over. All retainers are month-to-month with 30-day cancellation notice.</p>
+    </div>
+  </section>
+
+  <!-- A LA CARTE -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header text-center fade-in">
+        <span class="eyebrow">Flat-Fee Services</span>
+        <h2>À La Carte Options</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="grid-2" style="max-width: 860px; margin: 0 auto; gap: 2px;">
+        <div style="background: var(--white); border: 1px solid var(--gray-light); padding: 32px 36px;" class="fade-in">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem;">
+            <h3 style="font-size: 1.2rem;">Gift Concierge</h3>
+            <span style="color: var(--gold); font-family: 'Cormorant Garamond', serif; font-size: 1.4rem;">From $200</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--gray);">Curated gift sourcing for personal or corporate recipients. Research, selection, purchase, and delivery coordination included.</p>
+        </div>
+        <div style="background: var(--white); border: 1px solid var(--gray-light); padding: 32px 36px;" class="fade-in">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem;">
+            <h3 style="font-size: 1.2rem;">Seasonal Wardrobe Refresh</h3>
+            <span style="color: var(--gold); font-family: 'Cormorant Garamond', serif; font-size: 1.4rem;">From $500</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--gray);">A dedicated session to review and plan your seasonal wardrobe with a curated shopping list and brand recommendations.</p>
+        </div>
+        <div style="background: var(--white); border: 1px solid var(--gray-light); padding: 32px 36px;" class="fade-in">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem;">
+            <h3 style="font-size: 1.2rem;">Event / Travel Dressing</h3>
+            <span style="color: var(--gold); font-family: 'Cormorant Garamond', serif; font-size: 1.4rem;">From $350</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--gray);">Complete look curation for galas, weddings, vacations, and travel — clothing, accessories, and footwear fully coordinated.</p>
+        </div>
+        <div style="background: var(--white); border: 1px solid var(--gray-light); padding: 32px 36px;" class="fade-in">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem;">
+            <h3 style="font-size: 1.2rem;">Rare Item Sourcing</h3>
+            <span style="color: var(--gold); font-family: 'Cormorant Garamond', serif; font-size: 1.4rem;">Custom Quote</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--gray);">Waitlisted, discontinued, and limited pieces. Quoted based on item rarity, research scope, and urgency. Contact us to discuss.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADD-ONS -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-header text-center fade-in">
+        <span class="eyebrow">Extras</span>
+        <h2>Session Add-Ons</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="grid-4">
+        <div class="text-center fade-in" style="padding: 28px 20px; border: 1px solid rgba(255,255,255,0.08);">
+          <h4 style="color: var(--white); margin-bottom: 0.4rem; font-size: 1rem;">Extended Time</h4>
+          <p style="font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-bottom: 0.5rem;">Billed at your applicable hourly rate</p>
+        </div>
+        <div class="text-center fade-in" style="padding: 28px 20px; border: 1px solid rgba(255,255,255,0.08);">
+          <h4 style="color: var(--white); margin-bottom: 0.4rem; font-size: 1rem;">Rush / Same-Day</h4>
+          <p style="font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-bottom: 0.5rem;">+25% surcharge on session rate</p>
+        </div>
+        <div class="text-center fade-in" style="padding: 28px 20px; border: 1px solid rgba(255,255,255,0.08);">
+          <h4 style="color: var(--white); margin-bottom: 0.4rem; font-size: 1rem;">Weekend / Holiday</h4>
+          <p style="font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-bottom: 0.5rem;">+30% surcharge on session rate</p>
+        </div>
+        <div class="text-center fade-in" style="padding: 28px 20px; border: 1px solid rgba(255,255,255,0.08);">
+          <h4 style="color: var(--white); margin-bottom: 0.4rem; font-size: 1rem;">Session Recording</h4>
+          <p style="font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-bottom: 0.5rem;">Complimentary with consent</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POLICIES -->
+  <section class="section" style="background-color: var(--gold-pale);">
+    <div class="container" style="max-width: 800px;">
+      <div class="section-header text-center fade-in">
+        <span class="eyebrow">Important to Know</span>
+        <h2>Policies & Payment</h2>
+        <div class="divider"></div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 20px;">
+        <div class="fade-in" style="background: var(--white); padding: 28px 32px; display: flex; gap: 20px; align-items: flex-start;">
+          <span style="color: var(--gold); font-size: 1.2rem; flex-shrink: 0; margin-top: 2px;">◈</span>
+          <div>
+            <h4 style="margin-bottom: 6px;">Payment</h4>
+            <p style="font-size: 0.85rem;">Full payment is required prior to every session. Accepted methods: Visa, Mastercard, American Express, and bank transfer. Retainer fees are billed automatically on the 1st of each month.</p>
+          </div>
+        </div>
+        <div class="fade-in" style="background: var(--white); padding: 28px 32px; display: flex; gap: 20px; align-items: flex-start;">
+          <span style="color: var(--gold); font-size: 1.2rem; flex-shrink: 0; margin-top: 2px;">◈</span>
+          <div>
+            <h4 style="margin-bottom: 6px;">Cancellation</h4>
+            <p style="font-size: 0.85rem;">48+ hours notice: full credit toward a future session. Under 48 hours: 50% session fee charged. No-show: full session fee charged. Retainers may be cancelled with 30 days written notice before the next billing cycle.</p>
+          </div>
+        </div>
+        <div class="fade-in" style="background: var(--white); padding: 28px 32px; display: flex; gap: 20px; align-items: flex-start;">
+          <span style="color: var(--gold); font-size: 1.2rem; flex-shrink: 0; margin-top: 2px;">◈</span>
+          <div>
+            <h4 style="margin-bottom: 6px;">Purchase Reimbursement</h4>
+            <p style="font-size: 0.85rem;">When your concierge makes purchases on your behalf, a valid payment method must be on file. Product costs are billed directly to you — no markup is ever applied to purchases.</p>
+          </div>
+        </div>
+        <div class="fade-in" style="background: var(--white); padding: 28px 32px; display: flex; gap: 20px; align-items: flex-start;">
+          <span style="color: var(--gold); font-size: 1.2rem; flex-shrink: 0; margin-top: 2px;">◈</span>
+          <div>
+            <h4 style="margin-bottom: 6px;">Confidentiality</h4>
+            <p style="font-size: 0.85rem;">All client information is protected under a signed NDA. Your purchases, preferences, and identity are never disclosed to any third party.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container fade-in">
+      <span class="eyebrow" style="color: rgba(255,255,255,0.7);">Start Today</span>
+      <h2>Begin With a Complimentary Call</h2>
+      <p>Not sure which tier is right for you? Our discovery call is free, and it's the best way to find your perfect fit.</p>
+      <a href="contact.html" class="btn" style="background: var(--white); color: var(--gold); border-color: var(--white);">Book Your Free Discovery Call</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">Maison <span>Concierge</span></div>
+          <p class="footer__tagline">A white-glove remote luxury personal shopping concierge service for the world's most discerning clientele.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Navigation</h4>
+          <ul class="footer__links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul class="footer__links">
+            <li><a href="services.html">Live Shopping Sessions</a></li>
+            <li><a href="services.html">Wardrobe Curation</a></li>
+            <li><a href="services.html">Rare Item Sourcing</a></li>
+            <li><a href="services.html">Gift Concierge</a></li>
+            <li><a href="pricing.html">Monthly Retainers</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <p class="footer__contact-item">hello@maisonconcierge.com</p>
+          <p class="footer__contact-item">WhatsApp: +1 (000) 000-0000</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Maison Concierge. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
